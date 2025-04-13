@@ -1,0 +1,28 @@
+# Binários gerados (executáveis)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretórios de build
+bin/
+build/
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+
+# Configurações de IDEs/editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Módulos Go baixados (se você usar vendoring)
+vendor/
+
+# Arquivos de cache do Go
+go.sum
